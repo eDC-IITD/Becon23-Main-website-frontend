@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="eDC IIT Delhi's Business & Entrepreneurship Conclave with 50+ events spread across 4 days is one of the
+    biggest E-summit of India. eDC IIT Delhi aspires to inculcate the entrepreneurial environment in our
+    country by creating an easily accessible set of resources and connecting people with entrepreneurial
+    mindset." />
+  <meta name="keywords"
+    content="Becon, eDC, IIT Delhi, Entrepreneurship Development Cell, IIT , IITD, Entrepreneurship, Entrepreneur,BECON,Business,ESummit,startups,startups Delhi,Delhi startups,Startups in Delhi" />
+  <meta name="author" content="Saurabh Tiwari" />
+  <title>BECON | eDC IIT Delhi</title>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MCQKX3R');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/particle.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCQKX3R" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center header-inner">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
+        <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="BECon"></a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="./index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="./index.html#about">About</a></li>
+          <li><a class="nav-link scrollto active" href="./index.html#schedule">Events</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li> -->
+          <!-- <li><a class="nav-link scrollto" href="./index.html#hotels">Past Speakers</a></li> -->
+          <li><a class="nav-link scrollto" href="./index.html#gallery">Gallery</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li> -->
+          <li><a class="nav-link scrollto" href="./index.html#venue">Past Sponsors</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li> -->
+          <li><a class="nav-link scrollto" href="./index.html#faq">FAQs</a></li>
+          <li><a class="nav-link scrollto" href="./index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <div id="loginButtonShow">
+        <a class="buy-tickets scrollto" href="./index.html#buy-tickets"
+          style="height: 30px; display: inline-block;">Register</a>
+        <button type="button" class="scrollto buy-tickets" data-bs-toggle="modal" data-bs-target="#login-modal"
+          style="height: 30px; display: inline-block;" data-ticket-type="iitd-student">Login</button>
+      </div>
+      <div id="logoutButtonShow">
+        <a class="buy-tickets scrollto" onclick="logout()" style="height: 30px; display: inline-block; cursor: pointer;">Logout</a>
+      </div>
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main" class="main-page">
+
+    <!-- ======= Speaker Details Sectionn ======= -->
+    <section id="speakers-details">
+      <div class="container">
+        <div class="section-header">
+          <h2>Event Details</h2>
+          <p>Read about the event.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <img id="eventImage" alt="eventImage" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <div class="details">
+              <h2 id="longName"><span class="placeholder bg-light col-8"></span></h2>
+              <p id="eventDesc"><span class="placeholder bg-light col-12"></span><span class="placeholder bg-light col-12"></span><span class="placeholder bg-light col-12"></span><span class="placeholder bg-light col-12"></span></p>
+              <p><b>Mode:</b> <span id="eventMode"><span class="placeholder bg-light col-6"></span></span></p>
+              <p><b>Date:</b> <span id="eventDate"><span class="placeholder bg-light col-6"></span></span></p>
+              <p><b>Location:</b> <span id="eventLocation"><span class="placeholder bg-light col-4"></span></span></p>
+              <p id="eventTimelineContainer"><b>Event Rulebook:</b> <a id="eventTimeline"><span class="placeholder bg-light col-4"></span></a>
+              </p>
+            </div>
+            <div class="mt-5">
+              <button type="button" class="btn btn-primary" onclick="registerEvent()" id="eventRegisterButton" disabled><span
+                  class="spinner-border text-light invisible" id="eventRegisterLoader" role="status">
+                </span><span>Registration is not open</span></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Login Modal Order Form -->
+    <div id="login-modal" class="modal fade">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="loginCloseButton"></button>
+          </div>
+          <div class="modal-body">
+            <form id="loginForm">
+              <div class="form-group">
+                <input type="email" class="form-control" name="login-email" placeholder="Email" id="loginEmail"
+                  required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="password" class="form-control" name="login-pass" placeholder="Password" id="loginPass"
+                  required>
+              </div>
+              <div>
+                <button type="button" class="btn btn-link mt-1" data-bs-toggle="modal"
+                  data-bs-target="#forgot-pass-modal" data-ticket-type="iitd-student">Forgot Password</button>
+              </div>
+              <div class="text-center mt-2 d-flex justify-content-center"><button type="submit" class="btn btn-primary"
+                  id="loginButton">
+                  <span class="spinner-border text-light" id="loginLoader" role="status">
+                  </span>
+                  <span>Submit</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <!-- Forgot Pass Modal Order Form -->
+    <div id="forgot-pass-modal" class="modal fade">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Forgot Password</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" id="forgotPassCloseButton"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="forgotPassForm">
+              <div class="form-group">
+                <input type="email" class="form-control" name="forgot-pass-email" placeholder="Email"
+                  id="forgotPassEmail" required>
+              </div>
+              <div class="text-center mt-3 d-flex justify-content-center"><button type="submit" class="btn btn-primary"
+                  id="forgotpasswordButton">
+                  <span class="spinner-border text-light" id="forgotPassLoader" role="status">
+                  </span>
+                  <span>Submit</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 footer-info">
+            <img src="assets/img/logo.png" alt="BECon">
+            <p>eDC IIT Delhi's Business & Entrepreneurship Conclave with 50+ events spread across 3 days is one of the
+              biggest E-summit of India. eDC IIT Delhi aspires to inculcate the entrepreneurial environment in our
+              country by creating an easily accessible set of resources and connecting people with entrepreneurial
+              mindset.</p>
+          </div>
+
+          <div class="col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              IIT Delhi, Hauz Khas, Delhi, 110016 <br>
+              <strong>Phone:</strong> +91 9560523752<br>
+              <strong>Email:</strong> edciitd.team@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://twitter.com/edciitdelhi" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/edciitdelhi/posts" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/edc_iitd/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://in.linkedin.com/company/edc-iit-delhi" class="linkedin"><i
+                  class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>eDC IIT Delhi</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">eDC Tech Team</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/form.js"></script>
+  <script src="assets/js/loginLogout.js"></script>
+  <script src="assets/js/eventRegister.js"></script>
+
+</body>
+
+</html>
