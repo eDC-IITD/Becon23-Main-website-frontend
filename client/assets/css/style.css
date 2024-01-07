@@ -845,7 +845,7 @@ h6 {
   margin-bottom: 30px;
   color: #000;
 font-family: Montserrat;
-font-size: 37.01px;
+/* font-size: 37.01px; */
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -854,8 +854,7 @@ line-height: normal;
 #schedule .nav-tabs li {
   display: inline-block;
   margin-bottom: 0;
-  width: 372px;
-  height: 67px;
+  /* height: 6px; */
   flex-shrink: 0;
 }
 
@@ -888,7 +887,6 @@ line-height: normal;
   color: #000;
   background: #00F0FF;
   font-family: Montserrat;
-  font-size: 37.01px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
