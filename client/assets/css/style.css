@@ -903,6 +903,13 @@ line-height: normal;
   #schedule .sub-heading {
     width: 75%;
   }
+  #schedule .nav-tabs{
+    font-size: 37.01px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
 }
 
 #schedule .tab-pane {
