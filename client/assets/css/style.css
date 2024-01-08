@@ -7,6 +7,7 @@ body {
   /* background-position: center;
   background-size: cover; */
   /* top: 100%; */
+  /* background-color: blue; */
 }
 .mytag{
   background:url("../img/screenshot-20231224-at-1139-1@2x.png"),lightgray 50%;
@@ -112,25 +113,56 @@ h6 {
   margin-bottom: 60px;
   position: relative;
   padding-bottom: 20px;
+  /* z-index: 20; */
 }
 
-.section-header::before {
-  content: "";
-  position: absolute;
+.high{
+  z-index: 20;
+}
+
+.lol{
+  height: 75vh;
   display: block;
-  width: 60px;
-  height: 5px;
-  background: #b8439a;
-  bottom: 0;
-  left: calc(50% - 25px);
+}
+.left{
+  text-align: left;
+}
+.section-header h2 {
+  color: #fff;
+  font-size: 3.253vw;
+  text-transform: uppercase;
+  /* z-index: 20; */
+  text-align: center;
+  font-weight: 400;
+  opacity: 1;
+  /* margin-top: -5vh; */
+  margin-bottom: 10px;
+  font-family: "Archivo Black";
+  text-shadow: 0 1px 0 #000, 0 2px 0 #000,
+                0 3px 0 #000, 0 4px 0 #000,
+                0 5px 0 #000, 0 6px 0 #000,
+                0 6px 0 #000, 0 8px 0 #000,
+                0 9px 0 #fff, 0 11px 0 #fff,
+                0 3px 6px rgba(0, 0, 0, 0.5);
 }
 
-.section-header h2 {
-  font-size: 36px;
+.section-header h1{
+  color: #fff;
+  font-size: 3.253vw;
   text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
+  /* z-index: 20; */
+  /* text-align: center; */
+  font-weight: 400;
+  opacity: 1;
+  /* margin-top: -5vh; */
   margin-bottom: 10px;
+  font-family: "Archivo Black";
+  /* text-shadow: 0 1px 0 #000, 0 2px 0 #000,
+                0 3px 0 #000, 0 4px 0 #000,
+                0 5px 0 #000, 0 6px 0 #000,
+                0 6px 0 #000, 0 8px 0 #000,
+                0 9px 0 #fff, 0 11px 0 #fff,
+                0 3px 6px rgba(0, 0, 0, 0.5); */
 }
 
 .section-header p {
@@ -1021,6 +1053,21 @@ line-height: normal;
 
 #venue .venue-gallery-container {
   padding-right: 12px;
+  margin-top: -14vh;
+  width: 92.1875vw;
+  height: 33.854vw;
+  background-color: rgba(75, 74, 76, 0.2);;
+  z-index: 0;
+
+}
+
+.spons{
+  padding-top: 15vh;
+}
+
+.row{
+  /* margin-top: 50px; */
+  position: absolute;
 }
 
 #venue .venue-gallery {
@@ -1872,6 +1919,7 @@ line-height: normal;
   margin-right: 10px;
 }
 
+
 #eventRegisterButton {
   background: #b8439a;
   border: 0;
@@ -1899,3 +1947,7 @@ line-height: normal;
 #loginButtonShow{
   display: none;
 }
+/* <<<<<<< Updated upstream */
+/* ======= */
+
+/* >>>>>>> Stashed changes */
